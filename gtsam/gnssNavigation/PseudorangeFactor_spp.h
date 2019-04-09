@@ -37,7 +37,7 @@ typedef boost::shared_ptr<PseudorangeFactor_spp> shared_ptr;
 typedef PseudorangeFactor_spp This;
 
 PseudorangeFactor_spp() : measured_(0) {
-        h_=(Matrix(1,6)<<1,1,1,1,1,1).finished();
+        // h_=(Matrix(1,6)<<1,1,1,1,1,1).finished();
 }
 
 virtual ~PseudorangeFactor_spp() {
